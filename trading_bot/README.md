@@ -32,9 +32,7 @@ This project is a Python-based CLI trading bot that interacts with Binance Futur
 3. Create a `.env` file in the root directory:
    
    API_KEY=your_api_key
-   
    API_SECRET=your_api_secret
-   
    BASE_URL=https://testnet.binancefuture.com/fapi
 
 
