@@ -29,7 +29,7 @@ This project is a Python-based CLI trading bot that interacts with Binance Futur
 2. Install dependencies:
    pip install -r requirements.txt
 
-3. Create a `.env` file in the root directory:
+3. Create a `.env` file in the root directory, consisting of:
    
    API_KEY=your_api_key
    
