@@ -4,6 +4,7 @@
 This project is a Python-based CLI trading bot that interacts with Binance Futures Testnet (USDT-M) to place Market and Limit orders.
 
 
+
 ## 🚀 Features
 - Place MARKET and LIMIT orders
 - Supports BUY and SELL sides
@@ -12,10 +13,12 @@ This project is a Python-based CLI trading bot that interacts with Binance Futur
 - Logging of API requests and responses
 
 
+
 ## 🛠️ Tech Stack
 - Python 3.x
 - python-binance
 - dotenv
+
 
 
 ## ⚙️ Setup
@@ -32,6 +35,7 @@ This project is a Python-based CLI trading bot that interacts with Binance Futur
    BASE_URL=https://testnet.binancefuture.com/fapi
 
 
+
 ## ▶️ Usage
 
 ### Market Order
@@ -41,14 +45,17 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.003
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.003 --price 64000
 
 
+
 ## 📄 Output
 - Displays order summary and response details
 - Logs all API interactions in `trading_bot.log`
 
 
+
 ## 📊 Logs Included
 - One successful MARKET order
 - One successful LIMIT order
+
 
 
 ## ⚠️ Assumptions
